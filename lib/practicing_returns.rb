@@ -8,6 +8,7 @@ def hello(array)
     i += 1
   end
   coll
+  binding.pry
 end
-binding.pry
+
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
